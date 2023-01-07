@@ -8,12 +8,14 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
 <body>
-<section class="header">
+ <section class="header">
 	<nav>
 		<a href="index.html"><img src="img/logo1.png"></a>
-		<div class="nav-links">
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-solid fa-x" onclick="hideMenu()"></i>
 			<ul>
 				<li><a href="">HOME</a></li>
 				<li><a href="">ABOUT</a></li>
@@ -22,6 +24,7 @@
 
 			</ul>
 		</div>
+		<i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
 		</nav>
 	<div class="text-box">
 		<h1>In Tattoos we Trust!</h1>
@@ -30,9 +33,54 @@
 		<a href="" class="hero-btn">See more about our art</a>
 	</div>	
 
-	</section>
+ </section>
 
+ <!------- About ---->
 
+ <section class="about">
+ 	<h1>About us</h1>
+ 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+ 	</p>
+ </section>
+
+ <!------ Blog ----->
+
+ <section class="blog">
+ 	<h1>Our Blog</h1>
+ 
+
+ 	<div class="row">
+ 		<div class="blog-col">
+ 			<img src="img/artist1.jpg">
+ 		</div>
+ 	</div>
+
+ 	<div class="row">
+ 		<div class="blog-col">
+ 			<img src="img/artist2.jpg">
+ 		</div>
+ 	</div>
+
+ 	<div class="row">
+ 		<div class="blog-col">
+ 			<img src="img/artist3.jpg">
+ 		</div>
+ 	</div>
+
+ </section>
+
+<!-------Java Script for Menu------>
+
+ <script type="text/javascript">
+ 	var navLinks = document.getElementById("navLinks");
+ 	function showMenu() {
+ 		navLinks.style.right = "0";
+ 		// body...
+ 	}
+ 	function hideMenu() {
+ 		navLinks.style.right = "-200px";
+ 	}
+ </script>
 
 
 
