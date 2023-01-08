@@ -237,16 +237,59 @@
 	background: black;
 	color: white;
 }
-.about-us-col h1{
-	font-size: 30px;
-}
 .about-us-col{
+	padding-top: 40px;
 	background: black;
 	flex-basis: 48%;
-	align-items: center;
-
+	text-align: left;
+	display: flex;
+}
+.about-us-col h1{
+	text-align: right;
+	font-size: 30px;
+}
+.about-us-col p{
+	text-align: right;
+	font-size: 15px;
 }
 .about-us-col img{
-	width: 20%;
-	align-content: center;
+	width: 30%;
+}
+
+
+.Emily-col{
+	text-align: left;
+	padding-top: 40px;
+	background: black;
+	flex-basis: 48%;
+	display: flex;
+}
+.Emily-col h1{
+	text-align: left;
+}
+.Emily-col p{
+	text-align: left;
+}
+.Emily-col img{
+	width: 30%;
+}
+
+
+.Anna-col{
+	padding-top: 40px;
+	background: black;
+	flex-basis: 48%;
+	text-align: left;
+	display: flex;
+}
+.Anna-col h1{
+	text-align: right;
+	font-size: 30px;
+}
+.Anna-col p{
+	text-align: right;
+	font-size: 15px;
+}
+.Anna-col img{
+	width: 30%;
 }
