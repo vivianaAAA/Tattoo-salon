@@ -118,27 +118,34 @@
      /*------- About -----*/
 
  .about{
+ 	background: black;
+ }
+ h1{
+ 	color: white;
+ 	font-size: 36px;
+ 	font-weight: 600;
  	width: 80%;
  	margin: auto;
  	text-align: center;
  	padding-top: 80px;
-
- }
- h1{
- 	font-size: 36px;
- 	font-weight: 600;
  }
  p{
- 	color: black;
+ 	color: white;
  	font-size: 14px;
  	font-weight: 400;
  	line-height: 22px;
  	padding: 10px;
+ 	text-align: center;
  }
 
  	/*------- Blog ------*/
 
+ .blog{
+ 	background: black;
+ }
+
  .blog h1{
+ 	color: white;
  	width: 80%;
  	margin: auto;
  	text-align: center;
@@ -159,19 +166,82 @@
 
  }
  .blog p{
+ 	color: white;
  	width: 80%;
  	margin: auto;
  	text-align: center;
  	padding-top: 40px;
  }
+ @media(max-width: 700px){
+ 	.blog-col img{
+ 		margin-left: 0px;
+ 		margin-right: 15px;
+ 	}
+ }
 
+ /*------ Call to action -----*/
 
+ .cta{
+ 	background: black;
+ 	text-align: center;
+ 	padding-top: 40px;
+ 	padding-bottom: 40px;
+ }
+ .cta h1{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 40px;
+	background-image: url("img/roses.jpg");
+	background-position: center;
+	background-size: cover;
+ }
 
+/*-------- Footer ------*/
 
+.footer{
+	background: black;
+}
+ h3{
+ 	padding-top: 40px;
+	color: white;
+	text-align: center;
+}
+.footer p{
+ 	font-size: 10px;
+ }
+.icons{
+	color: white;
+ 	cursor: pointer;
+ 	font-size: 22px;
+ 	padding: 10px;
+ 	text-align: center;
+}
+.fa{
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
+/*-------- About us page ------*/
 
+.sub-header{
+	height: 50vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(img/tattoo-er.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+.about-us{
+	background: black;
+	color: white;
+}
+.about-us-col{
+	background: black;
+	flex-basis: 48%;
 
-
-
-
-
+}
+.about-us-col img{
+	width: 10%;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tattoo Salon</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css">
+</head>
+<body>
+ <section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="img/logo1.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-solid fa-x" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="">ABOUT</a></li>
+				<li><a href="">BLOG</a></li>
+				<li><a href="">CONTACT</a></li>
+
+			</ul>
+		</div>
+		<i class="fa fa-solid fa-house" onclick="showMenu()"></i>
+		</nav>	
+ </section>
+
+ <!------- About us page ---->
+
+ <section class="about-us">
+ 	<h1>About us</h1>
+ 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+ 	</p>
+ </section>
+
+
+
+<section class="about-us-col">
+	<div class="row">
+ 		<div class="about-us-col">
+ 			<h1>Alex</h1>
+ 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and scrambled it to make a type specimen book.<img src="img/tattoo-er2.jpg"></p>
+ 			<img src="img/tattoo-er2.jpg">
+ 		</div>
+ 	</div>
+</section>
+
+ <!------- Footer ------->
+
+ <section class="footer">
+ 	<h3>Where Can You Find Us</h3>
+ 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+ 	<div class="icons">
+ 		<i class="fa fa-brands fa-facebook"></i>
+ 		<i class="fa fa-brands fa-instagram"></i>
+ 		<i class="fa fa-brands fa-tiktok"></i>
+ 		<i class=" fa fa-brands fa-discord"></i>
+ 	</div>
+ 	<p>Made by <i class="fa fa-regular fa-heart"></i> Antal Viviana<br> and Easy Tutorials</p>
+ </section>
+
+<!-------Java Script for Menu------>
+
+ <script type="text/javascript">
+ 	var navLinks = document.getElementById("navLinks");
+ 	function showMenu() {
+ 		navLinks.style.right = "0";
+ 		// body...
+ 	}
+ 	function hideMenu() {
+ 		navLinks.style.right = "-200px";
+ 	}
+ </script>
+
+
+
+</body>
+</html>
