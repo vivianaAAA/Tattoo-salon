@@ -237,11 +237,16 @@
 	background: black;
 	color: white;
 }
+.about-us-col h1{
+	font-size: 30px;
+}
 .about-us-col{
 	background: black;
 	flex-basis: 48%;
+	align-items: center;
 
 }
 .about-us-col img{
-	width: 10%;
+	width: 20%;
+	align-content: center;
 }
